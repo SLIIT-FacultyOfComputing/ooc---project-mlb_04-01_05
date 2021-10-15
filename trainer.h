@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+class Trainer{
+   private:
+   int trainerID;
+   char trainerName[10];
+   char trainerContactNo[10];
+   char trainerUsername[15];
+   char trainerPassword[10];
+  
+  public:
+  void setAdd_Details(int pTrainerID, char pTrainerName[], char pTrainerContact[]);
+  void setEdit_LoginDetails(char pUsername[], char pPassword[]);
+  void setSearch_Trainers(int pTrainerID[], char pTrainerName[]);
+  void displayTrainer_Details();
+  ~Trainer();
+};
+=======
 #pragma once
 class trainer
 {
@@ -13,3 +30,4 @@ public:
 	void setEditLoginDetails(char pUsername[], int pUserPw);
 	void setSearchTrainers(int ptrainerId, char ptrainerName[]);
 	void displayTrainer();
+>>>>>>> origin/main

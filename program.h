@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+class Program{
+  private:
+  int programID;
+  char programName[20];
+  int programDuration;
+  double programFee;
+
+  public:
+  void set_Program(char pName[], int pID, int pDuration, double pFee);
+  void displayProgram();
+  ~Program();
+
+}
+=======
 #define SIZE
 class Unregistered_member;
 class program;
@@ -19,3 +34,4 @@ public:
 	~ program();
 
 };
+>>>>>>> origin/main
